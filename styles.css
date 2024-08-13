@@ -74,3 +74,49 @@ nav li a:hover{
     background-color: white;
     color: red;
 }
+/* cards section */
+
+.cards-section{
+  display: flex;
+  justify-content: space-around;
+  /* align-items: center; */
+}
+.cards-section div{
+  margin-top: 15px;
+position: relative;
+  flex-direction: row;
+  width: 35%;
+  height: 20%;
+  margin-left: 75px;
+  border:  5px solid black;
+  justify-content: space-around;
+}
+.cards-section div h1{
+  margin-left: 125px;
+}
+.cards-section div img{
+  width: 35%;
+  height: 20%;
+  margin-left: 125px;
+}
+
+
+
+/* 
+display properties
+
+position properties
+
+z-index
+
+opacity
+
+css box model
+
+how you create responsive designs using CSS ?
+
+by using media queries
+
+flex and grid  ?
+
+*/
