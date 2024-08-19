@@ -1,0 +1,22 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    margin-top: 15px;
+    height: 35px;
+}
+nav img{
+    height: 35px;
+}
+nav li{
+    color: beige;
+    margin-top: 7px;
+}
+nav li a:hover{
+    color: aquamarine;
+}

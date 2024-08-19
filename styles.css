@@ -59,6 +59,12 @@ nav img{
     height: 9%;
     width: 7%;
 }
+nav img:hover{
+  width: 75px;
+  height: auto;
+  
+  transition: width 4s;
+}
 header{
     font-size: 68px;
     margin-top: 5%;
