@@ -65,3 +65,23 @@ Data types --> primitive(string,boolean,number) nd non-primitive(array,object)
 ----------------------------------------------------------------------------------
 ECMA - european computers manufacturer association
  ->standard for javascript
+///////// Array Methods /////////////
+
+//array methods
+//push
+//pop
+// unshift
+//shift
+//slice
+// splice
+// delete
+//sort
+//replace
+//trim
+// template literals
+// string to array
+// split
+// spread operator(...)
+// reverse
+// join
+// fill
