@@ -153,10 +153,31 @@ var addition = function  (){
 console.log(addition());
 
 // Arrow Function
-console.log(minusDigits(23, 45))
+
 
 var minusDigits =(a, b)=> a + b;
-
+console.log(minusDigits(23, 45))
 // function => logical group of one or more expressions
 
 
+// closure ==> inner function can able to access parent function local variables by itself
+
+function namo(){
+  let a =100;
+  let b = a + a
+
+  function multiply(){
+  let c = b + b;
+    function divide(){
+      let d = c+c
+      return d
+    }
+    let y =divide();
+    console.log(y)
+    return c
+  }
+  let x=multiply()
+  console.log(x)
+  return b
+}
+console.log(namo())
