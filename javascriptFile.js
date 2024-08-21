@@ -132,15 +132,31 @@
 
  // closure  ==> function  bundle together with it's lexical environment
 
-function add (){
-  let a = 100;
-  console.log(z)
-  function sum (){
-    let b =200;
-    console.log(z)
-    function multi (){
-     let z = "hello"
-     console.log(z)
-    }multi()
-  }sum()
-}add()
+// functions
+
+// function Declaration
+console.log(sumOfNumbers());
+function sumOfNumbers (){
+  let a =1000;
+  let b = 20;
+  let c = a +b
+  return c
+}
+
+///  function Expression
+var addition = function  (){
+  let a =1000;
+  let b = 20;
+  let c = a +b
+  return c
+}
+console.log(addition());
+
+// Arrow Function
+console.log(minusDigits(23, 45))
+
+var minusDigits =(a, b)=> a + b;
+
+// function => logical group of one or more expressions
+
+
