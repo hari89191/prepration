@@ -25,7 +25,7 @@ Hosting -> its javascript interpreter behaviour,it takes all the declaration to 
 
 ----------------------------------------------------------------------------------------------
 
-Temporial deadzone -> we cannot access before initialization,after initialization only we can access
+Temporial deadzone ->whenever we are declaring with let or const keywords, we cannot access before initialization,after initialization only we can access
 
 -------------------------------------------------------------------------------------------------------
 
@@ -61,4 +61,7 @@ Function ==> logical group of one or more expressions
 shallow copy -> 
 Deep copy ->
 ----------------------------------------------------------------------------------
-Data types --> primitive(string,boolean,number) nd non-primitive
+Data types --> primitive(string,boolean,number) nd non-primitive(array,object)
+----------------------------------------------------------------------------------
+ECMA - european computers manufacturer association
+ ->standard for javascript
