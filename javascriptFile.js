@@ -97,7 +97,7 @@
 //     return  c * d};
 // let z=multiply(4,6)
 
-
+0
 // arrow function
 
 // let divide =(x, y)=>x/y
