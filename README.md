@@ -70,25 +70,43 @@ ECMA - european computers manufacturer association
                        Array Methods & Use Cases
  ------------------------------------------------------------------------------------
 //array methods and use cases
-
+---------------------------------------------------------------------------------------
 //push ==> to add element in end of the array
+---------------------------------------------------------------------------------------
 //pop  ==> to remove element from end of the array
+---------------------------------------------------------------------------------------
 // unshift  ==> to add element starting of the array
+---------------------------------------------------------------------------------------
 //shift  ==> to remove element from starting of the array
+---------------------------------------------------------------------------------------
 //slice  ==> it will select from one point to another point.  syntax ==> arrname.slice(startindex, endIndex)
+---------------------------------------------------------------------------------------
 // splice ==> by using splice we can able to add and remove elements from the array . syntax ==> arrname.splice(startindex,removeCount, items to add in the array)
+---------------------------------------------------------------------------------------
 // delete ==> to delete value from the array. syntax ==> delete indexof array   eg : delete arraName[index]
+---------------------------------------------------------------------------------------
 //sort   ==> to sort the array
+---------------------------------------------------------------------------------------
 //replace  ==> to repalce word with another word in string
+---------------------------------------------------------------------------------------
 //trim   == > it will remove spaces from start and end of the string
+---------------------------------------------------------------------------------------
 // template literals  ==> it allows us to write string and expressions in the same line. denoted by (``)back ticks.  eg : let a=10; let str = ` hello world ${a}`
+---------------------------------------------------------------------------------------
 // convert string into array  =>  by using split method , by using [...]
+---------------------------------------------------------------------------------------
 // split  ==> split the string into array 
+---------------------------------------------------------------------------------------
 // spread operator(...)   ==> it will expands the array
+---------------------------------------------------------------------------------------
 // reverse   => it will revrse the array of elements
+---------------------------------------------------------------------------------------
 // join   ==> it will join the array into string
+---------------------------------------------------------------------------------------
 // fill   ==> it will replace mentioned value from start index to end index
+---------------------------------------------------------------------------------------
 // concat ==> it will combine the values or arrays
+---------------------------------------------------------------------------------------
 let arr = [1,2,3]
 let arr1 = [4,5,6]
 let arr2= arr.concat(arr1)
