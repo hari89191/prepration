@@ -92,6 +92,17 @@ replace  ==> to repalce word with another word in string
 trim   == > it will remove spaces from start and end of the string
 ---------------------------------------------------------------------------------------
  template literals  ==> it allows us to write string and expressions in the same line. denoted by (``)back ticks.  eg : let a=10; let str = ` hello world ${a}`
+
+ let value = 100;
+
+let str = " ${value} New Delhi, Saket \n F-11, Select CITYWALK \n District Centre, Saket\n New Delhi, Delhi, 110017\n000800 040 4503"
+console.log(str)
+
+let str1= ` ${value} New Delhi, Saket
+F-11, Select CITYWALK
+District Centre, Saket
+New Delhi, Delhi, 110017
+000800 040 4503`
 ---------------------------------------------------------------------------------------
  convert string into array  =>  by using split method , by using [...]
 ---------------------------------------------------------------------------------------
