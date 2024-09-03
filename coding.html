@@ -1,0 +1,172 @@
+console.log("1st statement")
+
+setTimeout(()=>{
+   console.log("i'm from setTimeout")
+ },0)
+
+ for(let i=0; i<5; i++){
+
+     console.log(i)
+ }
+
+ setInterval(()=>{
+   console.log("i'm from setInterval")
+ },2000)
+
+ for(let i=0; i<10; i++){
+   setTimeout(()=>{
+     console.log(i)
+   },1000)
+ }
+
+-----------------------------------------------------------------------------------------
+
+  let str ="hhhhhhhhhhh"
+
+ let object ={}
+ let count =0;
+ for(let optional of str ){
+   if(object[optional]){
+     object[optional] ++
+   }
+   else{
+     object[optional] = 1
+   }
+ }
+ console.log(object)
+
+--------------------------------------------------------------------------------------------
+
+//   let dupli = arr.filter((elemnet)=> arr.indexOf(elemnet) === arr.lastIndexOf(elemnet))
+
+// console.log(dupli)
+
+-------------------------------------------------------------------------------------------
+
+
+   let arr=[1,2,3,4,3,2,4]
+   //remove repeated values
+  
+   function unique (arr){
+ let result =[];
+ for(let i=0; i<arr.length; i++){
+    let count =0;
+  for(let j=i+1; j<arr.length; j++){
+     if(arr[i] === arr[j]){
+       count ++
+    }
+    else{
+       count = 1
+     }
+
+   }
+      if(count === 1){
+     result.push(arr[i])
+     }
+     return result
+ }
+
+ }
+   console.log(unique(arr))
+  
+  let dupli = arr.filter((elemnet)=> arr.indexOf(elemnet) === arr.lastIndexOf(elemnet))
+
+  console.log(dupli)
+
+  --------------------------------------------------------------------------------------------
+
+ let str ="hello world"
+// // how many number of times "l" is repeated
+ let result=[]
+ for(let i=0;i<str.length;i++){
+  console.log(str[i])
+   result.push(str[i])
+ }
+
+-----------------------------------------------------------------------------------------------
+  
+
+let arr = [1,2,3,4]
+// // [1,3,6,10]
+let arr1=[]
+ let sum=0
+
+
+ for(let i=0;i<arr.length;i++){
+   sum += arr[i]
+   console.log(sum)
+   arr1.unshift(sum)
+ }
+ console.log(arr1)
+
+---------------------------------------------------------------------------------------------------
+
+
+ let str ="hello world NAME JAVASCRIPT randomvalue"; 
+
+ let array=str.split(" ");
+
+ let longestString=""
+
+ let longestLength=0;
+
+ for(let i=0; i<array.length; i++){
+   if(array[i].length > longestLength){
+     longestString = array[i];
+     longestLength = array[i].length
+   }
+ }
+ console.log(longestString, longestLength)
+
+----------------------------------------------------------------------------------------------
+
+let str ="abccbadef"
+// "cbadef
+----------------------------------------------------------------------------------
+
+let arr=[[1,2,3,4]]
+// // [1,2,3,4]
+
+
+for(let i=0;i<arr.length;i++){
+   console.log(arr[i])
+  }
+----------------------------------------------------
+let arr = [1,3,7]
+
+ let min=Math.min(...arr)
+ let max=Math.max(...arr)
+
+ let sum=0;
+
+ for(let i=min;i<=max;i++){
+   if(i %2 !=0 ){
+     sum=sum+i
+     console.log(i)
+    }
+ }
+
+ let right=0;
+
+ for(let i=0;i<arr.length;i++){
+  
+   right += arr[i]
+ }
+ console.log(right)
+
+ let missingodd = sum-right
+ console.log(missingodd)
+
+-------------------------------------------------------------------------------------------------
+
+
+let arr =[1,2,3,4]
+
+let arr1=[]
+//[5,6,7,8]
+
+
+for(let i=0; i<arr.length; i++){
+  arr1.push(arr[i] + 4)
+}
+console.log(arr1)
